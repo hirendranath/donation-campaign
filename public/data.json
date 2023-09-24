@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "image": "image1.jpg",
+        "title": "Product 1",
+        "categories":"Category A",
+        "description": "This is the description for Product 1.",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "image": "image2.jpg",
+        "title": "Product 2",
+        "categories":"Category A",
+        "description": "This is the description for Product 2.",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "image": "image3.jpg",
+        "title": "Product 3",
+        "categories": "Category A",
+        "description": "This is the description for Product 3.",
+        "price": 24.99
+    },
+    {
+        "id": 4,
+        "image": "image4.jpg",
+        "title": "Product 4",
+        "categories": "Category A",
+        "description": "This is the description for Product 4.",
+        "price": 14.99
+    },
+    {
+        "id": 5,
+        "image": "image5.jpg",
+        "title": "Product 5",
+        "categories": "Category A",
+        "description": "This is the description for Product 5.",
+        "price": 39.99
+    },
+    {
+        "id": 6,
+        "image": "image6.jpg",
+        "title": "Product 6",
+        "categories": "Category A",
+        "description": "This is the description for Product 6.",
+        "price": 49.99
+    },
+    {
+        "id": 7,
+        "image": "image7.jpg",
+        "title": "Product 7",
+        "categories": "Category A",
+        "description": "This is the description for Product 7.",
+        "price": 34.99
+    },
+    {
+        "id": 8,
+        "image": "image8.jpg",
+        "title": "Product 8",
+        "categories": "Category A",
+        "description": "This is the description for Product 8.",
+        "price": 19.99
+    },
+    {
+        "id": 9,
+        "image": "image9.jpg",
+        "title": "Product 9",
+        "categories": "Category A",
+        "description": "This is the description for Product 9.",
+        "price": 44.99
+    },
+    {
+        "id": 10,
+        "image": "image10.jpg",
+        "title": "Product 10",
+        "categories": "Category A",
+        "description": "This is the description for Product 10.",
+        "price": 29.99
+    },
+    {
+        "id": 11,
+        "image": "image11.jpg",
+        "title": "Product 11",
+        "categories":"Category A",
+        "description": "This is the description for Product 11.",
+        "price": 22.99
+    },
+    {
+        "id": 12,
+        "image": "image12.jpg",
+        "title": "Product 12",
+        "categories": "Category A",
+        "description": "This is the description for Product 12.",
+        "price": 54.99
+    }
+]
