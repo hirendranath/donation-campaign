@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+nav a:hover,
+nav a.active {
+    color: #FF444A;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: all 300ms ease;
+
+
+}
+
+.banner {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)), url(https://plus.unsplash.com/premium_photo-1681493806272-b3ed94b4faaa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
