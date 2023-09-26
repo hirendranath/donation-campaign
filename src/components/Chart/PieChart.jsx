@@ -33,7 +33,7 @@ const renderCustomizedLabel = ({
 export default function App() {
   const [totalPrice, setTotalPrice] = useState(0);
   const data = [
-    { name: "Total Donation", value: 5500 },
+    { name: "Total Donation", value: 7800 },
     { name: "Your Donation", value: totalPrice },
   ];
   useEffect(() => {

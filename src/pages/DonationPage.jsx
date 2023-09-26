@@ -37,8 +37,12 @@ const DonationPage = () => {
             {content}
           </div>
           <div className="flex justify-center items-center">
-            <button>
-              <h3>see all</h3>
+          <button
+              onClick={() => setDatalength(myDonation.length)}
+              className={`w-[110px] h-12 text-[16px] mx-auto mt-10 font-semibold bg-[#009444] text-white rounded-lg ${
+                myDonation.length <= dataLength ? "hidden" : "block"
+              }`}
+            >See All Now
             </button>
           </div>
         </>
