@@ -2,8 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import MainRoot from './MainRoot/MainRoot';
-import Home from './Home/Home';
+import MainRoot from './Components/MainRoot/MainRoot';
+import Home from './Components/Home/Home';
+import DonationDetails from './Components/DonationDetails/DonationDetails';
 
 const router=createBrowserRouter([
     {
@@ -19,8 +20,13 @@ const router=createBrowserRouter([
           element: <div>Donation Page</div>,
         },
         {
+          path:'/donation/:id',
+          element: <DonationDetails></DonationDetails>,
+          loader:()=>fetch('../data.json')
+        },
+        {
           path:'/statistics',
-          element: <div>Please Donate me now</div>,
+          element: <div>Please Donate me</div>,
         },
       ]
     }

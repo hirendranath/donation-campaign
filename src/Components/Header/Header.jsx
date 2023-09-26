@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <div>
-           <div className="flex justify-between px-24 my-4 items-center ">
+           <div className="flex lg:flex-row flex-col justify-between lg:px-24 my-4 items-center ">
                 <div>
                     <img src="./Logo.png" alt="" />
                 </div>
