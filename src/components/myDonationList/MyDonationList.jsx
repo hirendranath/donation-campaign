@@ -44,7 +44,7 @@ const MyDonationList = ({ donet }) => {
           style={{ background: text_and_button_bg }}
           className="px-4 py-2 rounded text-white"
         >
-          <Link to={`/donation/details/${id}`}>View Details</Link>
+          <Link to={`/donation/details/${id}`}>View Details here</Link>
         </button>
       </div>
     </div>
