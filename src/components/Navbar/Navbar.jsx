@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className={`py-12 px-5 lg:px-0 ${homeroute ? navclass : ""}`}>
       <ContentWrapper>
         <div className="flex justify-between items-center">
-          {/* logo side  */}
+          
           <div className="flex items-center">
             <div className="flex flex-col ml-5">
             <img src="public/Logo.png" alt="" />
